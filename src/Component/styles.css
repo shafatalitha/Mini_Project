@@ -1,0 +1,18 @@
+/* box-shadow: x y z warna; */
+/* nilai x untuk menentukan arah horizontal
+nilai y untuk menentukan arah vertikal
+nilai z untuk menentukan keburaman (blur) bayangan
+nilai warna, bisa menggunakan rgb(), rgba(), kode warna, nama warna, dsb */
+/* overflow scroll dan overflow auto
+misal scroll kesamping ituu namanya overflow */
+/* kalau di padding, angka pertama buat atas bawah, angka kedua buat kanan kiri */
+/* Box shadow ada diluar margin, ga mempengaruhi margin */
+
+.kotak {
+    margin : 130px;
+    width:430px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    padding: 90px 190px;
+    border-radius: 15px;
+    overflow:hidden;
+}
