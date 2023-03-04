@@ -7,12 +7,13 @@ nilai warna, bisa menggunakan rgb(), rgba(), kode warna, nama warna, dsb */
 misal scroll kesamping ituu namanya overflow */
 /* kalau di padding, angka pertama buat atas bawah, angka kedua buat kanan kiri */
 /* Box shadow ada diluar margin, ga mempengaruhi margin */
-
+/* pake hr di html buat bikin garis */
 .kotak {
-    margin : 130px;
-    width:430px;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
-    padding: 90px 190px;
+    margin : 180px;
+    width:350px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding: 90px 90px;
     border-radius: 15px;
     overflow:hidden;
 }
+

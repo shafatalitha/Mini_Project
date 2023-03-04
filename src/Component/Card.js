@@ -1,9 +1,16 @@
-import "./styles.css"
-const Card =()=>{
-    return (
+import "./styles.css";
+const Hallo = (props) => {
+  return <h1>Hi saya,{props.name}!</h1>;
+};
+
+
+
+const Card = ()=>{
+    return(
         <div className="kotak">
-            <h1>Hi, saya Shafa</h1>
-            <p>saya dari batch 36 berhasil menginstall react</p>
+            <Hallo name = " Shafa"/>
+            <hr/>
+            <p>Saya dari batch 36 sudah install react</p>
         </div>
     )
 }
