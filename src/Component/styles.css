@@ -9,11 +9,15 @@ misal scroll kesamping ituu namanya overflow */
 /* Box shadow ada diluar margin, ga mempengaruhi margin */
 /* pake hr di html buat bikin garis */
 .kotak {
-    margin : 180px;
-    width:350px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-    padding: 90px 90px;
-    border-radius: 15px;
-    overflow:hidden;
+  margin: 180px;
+  width: 350px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 90px 90px;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
+button {
+ width: 250px;
+  
+}
